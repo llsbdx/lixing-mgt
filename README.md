@@ -9,3 +9,7 @@ nodeJs+koa+angularJs+bootStrap+mysql
 6、通过git remote add origin https://github.com/llsbdx/lixing-mgt.git
        git push -u orgin master
    提交到远程仓库；
+7、创建并切换到分支 git checkout -b dev
+8、现在可以在分支上开发了。。。
+
+二、搭建NodeJs环境
