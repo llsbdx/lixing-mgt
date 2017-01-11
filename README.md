@@ -13,3 +13,36 @@ nodeJs+koa+angularJs+bootStrap+mysql
 8、现在可以在分支上开发了。。。
 
 二、搭建NodeJs环境
+1、通过npm init 创建一个空目录（除package.json）
+2、添加以下目录
+   --models：存放操作数据库的文件
+   --public：存放静态文件，如样式、图片等
+     --css
+     --img
+   --routes：存放路由文件
+   --views：存放模板文件
+3、安装依赖模块
+   通过npm i config-lite connect-flash connect-mongo ejs express express-formidable express-session marked moment sequelize  mysql objectid-to-timestamp sha1 winston express-winston --save 安装依赖包
+   --express:web框架
+   --express-session:session中间件
+   --connect-flash:页面通知提示的中间件，基于session实现
+   --ejs:模板
+   --exptess-formidable:接收表单及文件上传中间件
+   --config-lite:读取配置文件文件
+   --marked:markdown解析
+   --monent:时间格式
+   --object-to-timestamp:根据ObjectId生成时间戳
+   --sha1:sha1加密，密于密码加密
+   --wiston:日志
+   --express-winston:基于wiston的用于express的日志中间件
+   --mysql:mysql驱动
+   --sequelize:orm把关系数据库表结构映射到对象上
+
+   注：
+    npm i express --save / npm i express -S  (安装 express，同时将  "express": "^4.14.0"  写入 dependencies )
+
+     npm i express --save-dev / npm i express -D  (安装 express，同时将  "express": "^4.14.0"  写入 devDependencies )
+      npm i express --save --save-exact  (安装 express，同时将  "express": "4.14.0"  写入 dependencies 
+
+4、锁定项目依赖包
+   通过npm shrinkwrap 会生成npm-shrinkwrap.json文件，只要目录下有 npm-shrinkwrap.json 则运行  npm install  的时候会优先使用 npm-shrinkwrap.json 进行安装，没有则使用 package.json 进行安装。：

@@ -1,0 +1,51 @@
+{
+  "name": "lixing-mgt",
+  "version": "1.0.0",
+  "description": "lixing-mgt ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llsbdx/lixing-mgt.git"
+  },
+  "author": "lilong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llsbdx/lixing-mgt/issues"
+  },
+  "homepage": "https://github.com/llsbdx/lixing-mgt#readme",
+  "devDependencies": {
+    "config-lite": "1.5.0",
+    "connect-flash": "0.1.1",
+    "ejs": "2.5.5",
+    "express": "4.14.0",
+    "express-formidable": "1.0.0",
+    "express-session": "1.14.2",
+    "express-winston": "2.1.2",
+    "marked": "0.3.6",
+    "moment": "2.17.1",
+    "mysql": "2.12.0",
+    "objectid-to-timestamp": "1.3.0",
+    "sequelize": "3.29.0",
+    "sha1": "1.1.1",
+    "winston": "2.3.0"
+  },
+  "dependencies": {
+    "config-lite": "1.5.0",
+    "connect-flash": "0.1.1",
+    "ejs": "2.5.5",
+    "express": "4.14.0",
+    "express-formidable": "1.0.0",
+    "express-session": "1.14.2",
+    "express-winston": "2.1.2",
+    "marked": "0.3.6",
+    "moment": "2.17.1",
+    "mysql": "2.12.0",
+    "objectid-to-timestamp": "1.3.0",
+    "sequelize": "3.29.0",
+    "sha1": "1.1.1",
+    "winston": "2.3.0"
+  }
+}
