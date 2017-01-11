@@ -45,4 +45,9 @@ nodeJs+koa+angularJs+bootStrap+mysql
       npm i express --save --save-exact  (安装 express，同时将  "express": "4.14.0"  写入 dependencies 
 
 4、锁定项目依赖包
-   通过npm shrinkwrap 会生成npm-shrinkwrap.json文件，只要目录下有 npm-shrinkwrap.json 则运行  npm install  的时候会优先使用 npm-shrinkwrap.json 进行安装，没有则使用 package.json 进行安装。：
+   通过npm shrinkwrap 会生成npm-shrinkwrap.json文件，只要目录下有 npm-shrinkwrap.json 则运行  npm install  的时候会优先使用 npm-shrinkwrap.json 进行安装，没有则使用 package.json 进行安装。
+三、将开发分支的变动合并到主干
+1、通过git checkout master切换到主干；
+2、通过git merge dev 将分支的变动合并到主干；
+3、通过git branch -d dev 删除分支; 
+4、通过git branch 查看分支
